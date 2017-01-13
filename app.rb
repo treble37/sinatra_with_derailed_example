@@ -1,5 +1,5 @@
 class ExampleApp < Sinatra::Base
   get '/' do
-    "Live from New York!"
+    erb :index, locals: { message: "Live from New York!", now: Time.now }
   end
 end
