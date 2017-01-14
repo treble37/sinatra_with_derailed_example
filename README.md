@@ -1,3 +1,7 @@
+##About
+
+A quick sinatra app demonstrating how to setup derailed_benchmarks with Sinatra
+
 ##Instructions
 
 1. Start the sinatra app with:
